@@ -8,20 +8,11 @@ public class Main {
         String fruit = in.next();
         // instead of IFs we can use SwitchCases
         switch (fruit) {
-            case "Mango":
-                System.out.println("King of fruits");
-                break;
-            case "Apple":
-                System.out.println("Apple a day keeps the doctor away");
-                break;
-            case "Orange":
-                System.out.println("Sour af");
-                break;
-            case "Grapes":
-                System.out.println("Vine fruit");
-                break;
-            default:
-                System.out.println("Please enter valid fruit");
+            case "Mango" -> System.out.println("King of fruits");
+            case "Apple" -> System.out.println("Apple a day keeps the doctor away");
+            case "Orange" -> System.out.println("Sour af");
+            case "Grapes" -> System.out.println("Vine fruit");
+            default -> System.out.println("Please enter valid fruit");
         }
     }
 }
