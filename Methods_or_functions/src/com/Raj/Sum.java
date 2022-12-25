@@ -34,7 +34,7 @@ public class Sum {
     }
 
     /*
-    return_type name () {
+    return_type name (arguments) {
         //body
         return statement
      */
