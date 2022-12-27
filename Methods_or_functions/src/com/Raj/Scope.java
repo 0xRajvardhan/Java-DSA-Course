@@ -15,6 +15,13 @@ public class Scope {
         System.out.println(name);
         System.out.println(a);
 //        System.out.println(c); thi will throw an error because of block scope
+
+        // scoping in for loop
+        for (int i = 0; i < 4; i++) {
+            System.out.println(i);
+            int num = 90;
+//            int a = 10; cannot be initialised again inside loop
+        }
     }
 
     static void random(int marks) {
