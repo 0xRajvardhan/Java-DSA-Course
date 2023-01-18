@@ -36,5 +36,8 @@ public class Input {
             str[a] = in.next();
         }
         System.out.println(Arrays.toString(str));
+        // modify
+        str[1] = "Raj";
+        System.out.println(Arrays.toString(str));
     }
 }
