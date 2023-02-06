@@ -1,5 +1,6 @@
 package com.Raj;
-
+//https://leetcode.com/problems/find-the-duplicate-number/
+// Asked by Amazon and Google
 class FindDuplicate {
     static void swap(int[] arr, int first, int second) {
         int temp = arr[first];
